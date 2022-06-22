@@ -48,7 +48,7 @@ Call:0790064309
 Emai: koechemmanuel2002@gmail.com
 
 ### License
-(https://github.com/emmanuel687/neighborhood/blob/master/Licence)
+(https://github.com/emmanuel687/blob/master/Licence)
 Licence under MITLICENCE Copyright (c) {2022}
 
 #### Copyright
