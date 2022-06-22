@@ -1,0 +1,420 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sample pdf</title>
+    <link rel="stylesheet" href="style.css">
+
+
+
+
+
+<style>
+       *{
+    margin: 0px;
+    padding: 0px;
+    text-indent: 0%;
+}
+.main-section{
+    border: 1px solid;
+}
+
+.table-container{
+    border: solid 1px #A8A8A8;
+}
+
+table, th, td {
+  border: 1px solid #A8A8A8;
+}
+.table-container th{
+    background-color: rgb(211, 211, 211);
+}
+
+.table-details{
+    vertical-align: middle;
+}
+
+.s1 {
+        color: black;
+        font-family: Arial, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 10pt;
+    }
+ .s7 {
+        color: black;
+        font-family: Arial, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 8pt;
+    } </style>
+
+
+  </head>
+  <body>
+    <section class="main-section">
+
+
+      <div class="main-container">
+        <div style="text-align: right; margin-right: 60px;">
+          <div style="position: absolute; left: 25%; margin-top: 10px;">
+            <img width="103" height="106"
+                 src="data:image/jpg;base64,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"/>
+          </div>
+
+ <div style="margin-left: 220px;">
+    <tr style="height:115pt;">
+        <td style="width:525pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:2pt;border-right-style:solid;border-right-width:1pt;"
+            colspan="8">
+            <p class="s1" style="padding-left: 321pt;padding-right: 58pt;text-indent: 0pt;text-align: center;font-size: 20px; margin-left: 95px;">
+            Emalahleni Local Municipality</p>
+            <p class="s2"
+               style="padding-top: 4pt;padding-left: 321pt;padding-right: 58pt;text-indent: 0pt;text-align: center; margin-left: 110px;">PO
+                Box 3 eMalahleni 1035</p>
+            <p class="s2"
+               style="padding-top: 5pt;padding-left: 321pt;padding-right: 58pt;text-indent: 0pt;text-align: center; margin-left: 90px;">
+                Tel:013 690 6911</p>
+            <p class="s2"
+               style="padding-top: 5pt;padding-left: 357pt;padding-right: 93pt;text-indent: 0pt;line-height: 157%;text-align: center; margin-left: 80px;">
+                Fax: 013 690 6207 Vat No.:4000142457</p>
+     </div>
+     <div style="display: flex;margin-top: 20px;margin-left: 250px;">
+       <div style="margin-left: -50px; font-size: 13px;">
+        <p>
+          <strong>Office Hours </strong> Mon to Thursday 7:30 to 16:30 Friday 07:30 to 13:30
+        </p>
+        <p style="margin-top: 10px;">
+          <strong>Payment Hours </strong> Mon to Thursday 7:30 to 16:30 Friday  07:30 to 12:30
+       </p>
+      </div>
+      <div style="margin-bottom: 20px; margin-left: 220px; font-size: 13px;">
+        <p><strong>KWAGUQA</strong> Tel:(013) 698-0262 Fax:(013)690-6207</p>
+        <p style="margin-top: 10px;"> <strong>OGGIES</strong> Tel:(013) 643-1027 Fax:(013)690-2039</p>
+      </div>
+
+    </section>
+
+    <section style="border: 1px solid; padding: 10px;">
+      <h1 style="text-align: center;">TAX INVOICE/STATEMENT OF ACCOUNT</h1>
+      <div style="display: flex;">
+        <div style="margin-left: 10px; margin-top: 10px;">
+          <p>Account Number: 000402393</p>
+          <p>Consumer Name: THOMAS NTHABISENG MOKONENI</p>
+          <p>Postal Address: KWA-GUQA EXT 7 ERF NO 4114 WITBANK</p>
+          <p>Postal code:1038</p>
+          <p>Interest Pin:353579124</p>
+        </div>
+
+        <div style="margin-left: 400px;">
+          <p>Account Date: 22 Jan 2022</p>
+          <p>Tax Invoice No: 0004002393022201</p>
+          <p>Vat Registration N0 : 0</p>
+          <p>ERF Description: 51007 000004114 0000 0000 0000</p>
+          <p>Market value: 390,000.00</p>
+          <p>Street: KWA EXT 7,4114</p>
+          <p>Land Area: <span>300.000</span></p>
+          <p>Deposit: <span>0.00</span></p>
+        </div>
+      </div>
+  
+    </section>
+
+    <section>
+      <h1 style="text-align: center;padding: 5px; border: 1px solid black;">METER READINGS</h1>
+      <div class="table-container">
+        <table style="width: 100%; background-color: ;">
+          <tr> 
+            <th>METER NO.</th>
+            <th>METER TYPE.</th>
+            <th>OLD READING.</th>
+            <th>NEW READING.</th>
+            <th>CONSUMPTIONS.</th>
+            <th>LEVIED AMOUNT.</th>
+            <th>READING DATES.</th>
+          </tr>
+          <tr>
+            <td>0000001024</td>
+            <td>PRE-PAID</td>
+            <td>.000</td>
+            <td>.000 N</td>
+            <td>.000</td>
+            <td>0.0</td>
+            <td>-</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+
+    <section style="border: 1px solid;">
+      <div style="text-align: center; padding: 5px;">
+        <h1>ACCOUNT DETAILS</h1>
+        <p>(Rates:638.98,Exemption:- 81.92,Rebate-194.97)</p>
+      </div>
+
+      <div class="table-container">
+        <table style="width: 100%;">
+          <tr>
+            <th>DATE</th>
+            <th>CODE</th>
+            <th>DESCRIPTION</th>
+            <th>UNITS</th>
+            <th>TARIFF</th>
+            <th>VALUE.</th>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td>OPENING BALANCE</td>
+            <td></td>
+            <td></td>
+            <td>110,223.60</td>
+            <td>-</td>
+          </tr>
+
+          <tr>
+            <td>23/01/2022</td>
+            <td>00S023</td>
+            <td>SEWERAGE</td>
+            <td>1.000</td>
+            <td></td>
+            <td>219.47</td>
+          </tr>
+
+          <tr>
+            <td>23/01/2022</td>
+            <td>00w008</td>
+            <td>WATER</td>
+            <td>1.000</td>
+            <td></td>
+            <td>516.76</td>
+          </tr>
+
+          <tr>
+            <td>23/01/2022</td>
+            <td>00S023</td>
+            <td>RATES</td>
+            <td></td>
+            <td></td>
+            <td>362.09</td>
+          </tr>
+
+          <tr>
+            <td>23/01/2022</td>
+            <td>00R007</td>
+            <td>REFUSE</td>
+            <td></td>
+            <td></td>
+            <td>164.00</td>
+          </tr>
+
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td></td>
+            <td>009008</td>
+            <td>VAT</td>
+            <td></td>
+            <td></td>
+            <td>135.03</td>
+          </tr>
+
+          <tr>
+            <td></td>
+            <td>009008</td>
+            <td>INTEREST</td>
+            <td></td>
+            <td></td>
+            <td>493.53</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+
+    <section>
+      <div class="table-container">
+       <table style="width: 100%;">
+        <tr>
+          <th>120+ DAYS</th>
+          <th>90 DAYS</th>
+          <th>60 DAYS</th>
+          <th>30 DAYS</th>
+          <th>CURRENT</th>
+          <th>CLOSING BALANCE</th>
+        </tr>
+
+        <tr>
+          <td>104,595.12</td>
+          <td>1,868.79</td>
+          <td>1,876.16</td>
+          <td>1,883.53</td>
+          <td>1,890.88</td>
+          <td>112,114.48</td>
+        </tr>
+      </table>
+      </div>
+    </section>
+
+    <section>
+      <div style="text-align: center; color: red; font-size: 12px; border:  1px solid black; padding: 5px;">
+        <p>
+          CUSTOMERS ARE HUMBLY REQUESTED TO SETTLE THEIR MUNICIPAL SCCOUNTS
+          BEFORE THE 7TH OF EACH MONTH TO AVOID CUT OFFS
+        </p>
+        <p>
+          """WARNING""" IN TERMS OF THE LOCAL MUNICIPAL SYSTEM ACT,THE LOCAL
+          GOVERNMENT :RATES ACT AND IN TERMS OF THE BY-LAWS APPLICABLE TO THE
+          JURISDICTATION
+        </p>
+        <p>
+          OF THE MUNICIPALITY,ALL ACCOUNTS WITH OUTSTANDING BALANCES AFTER THE
+          7TH OF EACH MONTH WILL BE DISCONNECTED WITHOUT FURTHER NOTICE
+        </p>
+      </div>
+    </section>
+
+ <section style="border: 1px solid black;">
+      <div style="margin: 10px;" >
+          <div  style="margin-left: 100px;">
+           <h1><strong>REMITTANCE ADVICE </strong></h1>
+         <!-- <div style="margin-top: 20px;">
+          <p><strong>BANK NAME:</strong>ABSA</p>
+          <p><strong>ACCOUNT NAME:</strong>Emalahleni Local Municipality</p>
+          <p><strong>ACCOUNT NUMBER:</strong>1360000091</p>
+          <p><strong>REFERENCE:</strong>0004002393</p>
+        </td>
+        </div> -->
+
+<table style="border-collapse:collapse;right: 40px; margin-top: 20px;" cellspacing="0">
+    <tr style="height:24pt">
+        <td style="width:129pt" bgcolor="#D3D3D3"><p class="s7"
+            <p class="s7" style="padding-top: 2pt;padding-left: 1pt;text-indent: 0pt;text-align: left;">ACCOUNT NUMBER</p>
+        </td>
+        <td style="width:109pt"><p class="s2" style="padding-left: 1pt;text-indent: 0pt;text-align: left;">004002393</p>
+    </tr>
+    <tr style="height:12pt">
+        <td style="width:129pt" bgcolor="#D3D3D3"><p class="s7"
+                                                     style="padding-top: 1pt;padding-left: 1pt;text-indent: 0pt;text-align: left;">
+            CONSUMER NAME</p></td>
+        <td style="width:109pt"><p class="s2"
+                                   style="padding-top: 1pt;padding-left: 1pt;text-indent: 0pt;text-align: left;">
+            THOMAS NTHABISENG MOKONENI</p></td>
+    </tr>
+        <tr style="height:12pt">
+        <td style="width:129pt" bgcolor="#D3D3D3"><p class="s7"
+                                                     style="padding-top: 1pt;padding-left: 1pt;text-indent: 0pt;text-align: left;">
+            TOTAL DUE:</p></td>
+        <td style="width:109pt"><p class="s2"
+                                   style="padding-top: 1pt;padding-left: 1pt;text-indent: 0pt;text-align: left;">
+            112 114.48</p></td>
+    </tr>
+    <tr style="height:12pt">
+        <td style="width:129pt" bgcolor="#D3D3D3"><p class="s7"
+                                                     style="padding-top: 1pt;padding-left: 1pt;text-indent: 0pt;text-align: left;">
+            TOTAL DUE ON OR BEFORE</p></td>
+        <td style="width:109pt"><p class="s2"
+                                   style="padding-top: 1pt;padding-left: 1pt;text-indent: 0pt;text-align: left;">
+            07/02/2022</p></td>
+    </tr>
+</table>
+  </div>
+
+
+
+
+
+          <div  style="position: absolute;bottom: -340px;right: 20px;">
+           <h1 style="margin-bottom: 18px;"><strong>BANKING DETAILS </strong></h1>
+         <!-- <div style="margin-top: 20px;">
+          <p><strong>BANK NAME:</strong>ABSA</p>
+          <p><strong>ACCOUNT NAME:</strong>Emalahleni Local Municipality</p>
+          <p><strong>ACCOUNT NUMBER:</strong>1360000091</p>
+          <p><strong>REFERENCE:</strong>0004002393</p>
+        </td>
+        </div> -->
+
+<table style="border-collapse:collapse;right: 40px;margin-right: 100px;" cellspacing="0">
+    <tr style="height:24pt;border">
+        <td style="width:129pt" bgcolor="#D3D3D3"><p class="s7"
+                                                     style="padding-left: 1pt;text-indent: 0pt;text-align: left;">BANK
+            NAME</p>
+            <p class="s7" style="padding-top: 2pt;padding-left: 1pt;text-indent: 0pt;text-align: left;">ACCOUNT NAME</p>
+        </td>
+        <td style="width:109pt"><p class="s2" style="padding-left: 1pt;text-indent: 0pt;text-align: left;">ABSA</p>
+            <p class="s2" style="padding-top: 2pt;padding-left: 1pt;text-indent: 0pt;text-align: left;">Emalahleni Local
+                Municipality</p></td>
+    </tr>
+
+        <tr style="height:12pt">
+        <td style="width:129pt" bgcolor="#D3D3D3"><p class="s7"
+                                                     style="padding-top: 1pt;padding-left: 1pt;text-indent: 0pt;text-align: left;">
+            ACCOUNT NAME</p></td>
+        <td style="width:109pt"><p class="s2"
+                                   style="padding-top: 1pt;padding-left: 1pt;text-indent: 0pt;text-align: left;">
+            Emalahleni Local Municipality</p></td>
+    </tr>
+    <tr style="height:12pt">
+        <td style="width:129pt" bgcolor="#D3D3D3"><p class="s7"
+                                                     style="padding-top: 1pt;padding-left: 1pt;text-indent: 0pt;text-align: left;">
+            BRANCH CODE</p></td>
+        <td style="width:109pt"><p class="s2"
+                                   style="padding-top: 1pt;padding-left: 1pt;text-indent: 0pt;text-align: left;">
+            509-750</p></td>
+    </tr>
+    <tr style="height:13pt">
+        <td style="width:129pt" bgcolor="#D3D3D3"><p class="s7"
+                                                     style="padding-top: 1pt;padding-left: 1pt;text-indent: 0pt;text-align: left;">
+            REFERENCE</p></td>
+        <td style="width:109pt"><p class="s2"
+                                   style="padding-top: 1pt;padding-left: 1pt;text-indent: 0pt;text-align: left;">
+            0004002393</p></td>
+    </tr>
+</table>
+  </div>
+
+      <section  style="flex; border-bottom: 1px solid;">
+        <div style="margin-top: 40px;">
+          <div  style="position: absolute; right: 550px; margin-top: -4px;">
+          <img width="76" height="33" src="data:image/jpg;base64,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"/></td></tr></table></span></p>
+       </div>
+                  <p style="margin-left: 700px; margin-bottom: 60px ; padding: 5px;margin-left: 350px;">00040000002393 </p>
+    
+        </div>
+
+        <div style="margin-left: 100px;">
+          <p style="margin-bottom: 20px;">>>>>91 1810 0040 0239 36</p>
+             <div style="position: absolute; left: 10px; margin-top: -50px;" > 
+          <img width="76" height="29"
+                 src="data:image/jpg;base64,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"/>
+           </div>
+          <p>11959 0000 0400 2393</p>
+          <div style="position: absolute; left: 5px; margin-top: -26px;">
+          <img width="76" height="33 "src="data:image/jpg;base64,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"/></td>
+          </div>
+        </div>
+
+      
+</body>
+
+</html>
+
+        
+         <div style="text-align: right; margin-right: 25px; font-size: 20px; margin-top: 30;">
+          <p><strong>Printed By:</strong>MUNSYS_BRIGHTON</p>
+          
+        </div>
+      </section> 
+      <!--Post Office -->
+    </section>
+  </body>
+</html>
