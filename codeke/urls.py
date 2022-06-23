@@ -1,7 +1,8 @@
-from django.urls import re_path,path
+from django.urls import re_path, path
 from . import views
 
-urlpatterns=[
-    path('',views.index,name='index')
+urlpatterns = [
+    path('', views.index, name='index'),
+    path('statement', views.index, name='statement')
 
 ]
