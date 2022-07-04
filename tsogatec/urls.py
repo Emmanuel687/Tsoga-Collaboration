@@ -19,7 +19,7 @@ from codeke.views import GeneratePDF
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',include('codeke.urls')),
+  
     path('pdf/',GeneratePDF.as_view())
 
 
