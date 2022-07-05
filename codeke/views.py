@@ -15,19 +15,21 @@ class GeneratePDF(View):
             "office_hours":"Mon to Thursday 7:30 to 16:30 Friday 07:30 to 13:30",
             "payment_hours":"Mon to Thursday 7:30 to 16:30 Friday  07:30 to 12:30",
             "kwaguqa":"Tel:(013) 698-0262 Fax:(013)690-6207",
-
+            "oggies":"(013) 643-1027 Fax:(013)690-2039",
+            
+           
             "account_number":"00040239",
             "consumer_name": "THOMAS NTHABISENG MOKONENI",
             "postal_address":"KWA-GUQA EXT 7 ERF NO 4114 WITBANK",
             "postal_code":1038,
             "interest_pin":353579124,
-            "account_date":" 22 Jan 2022",
+           
 
-            
+            "account_date":" 22 Jan 2022",
             "tax_invoice": "0004002393022201",
             "vat_registration":0,
             "erf_description":"51007 000004114 0000 0000 0000",
-            "Market value":"390,000.00",
+            "market_value":"390,000.00",
             "street_Id":"KWA EXT 7,4114",
             "land_area":300.000,
             "deposit_amount":0.00,
@@ -101,8 +103,12 @@ class GeneratePDF(View):
             "account_name":"004002393",
             "consumer_name":"THOMAS NTHABISENG MOKONENI",
             "total_due":"112 114.48",
-            "total_due_before":"07/02/2022"
+            "total_due_before":"07/02/2022",
 
+            "bank_name":"ABSA",
+            "account_name":"Emalahleni Local Municipality",
+            "branch_code":509-750,
+            "reference":"0004002393"
 
 
             
